@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TelaNoticarValidade</class>
+ <widget class="QMainWindow" name="TelaNoticarValidade">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>330</width>
+    <height>110</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>330</width>
+    <height>110</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>330</width>
+    <height>110</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Vencimento de Produto</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../Imagens/icone.png</normaloff>../Imagens/icone.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 22, 57);</string>
+  </property>
+  <widget class="QWidget" name="Notificar">
+   <widget class="QLabel" name="labelAviso">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>32</y>
+      <width>295</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift</family>
+      <pointsize>13</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::NoContextMenu</enum>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 0, 127);
+font: 13pt &quot;Bahnschrift&quot;;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="text">
+     <string>VOCÊ TEM UM PRODUTO A SE VENCER.</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_VerProduto">
+    <property name="geometry">
+     <rect>
+      <x>128</x>
+      <y>72</y>
+      <width>81</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 22, 57);
+background-color: rgb(255, 255, 255);
+font: 10pt &quot;Bahnschrift&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Ver produto</string>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

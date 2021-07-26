@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TelaApreciar</class>
+ <widget class="QMainWindow" name="TelaApreciar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>850</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>850</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>850</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Apreciar </string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normalon>../../../Downloads/Projeto_v1.0_interface/Projeto_v1.0 interface/Imagens/icone.png</normalon>
+   </iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(255, 255, 255);
+
+background-color: rgb(0, 28, 72);</string>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <widget class="QWidget" name="Apreciacao">
+   <widget class="QPushButton" name="PlanodeFundo">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-4</y>
+      <width>871</width>
+      <height>525</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <stylestrategy>NoAntialias</stylestrategy>
+     </font>
+    </property>
+    <property name="focusPolicy">
+     <enum>Qt::NoFocus</enum>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::NoContextMenu</enum>
+    </property>
+    <property name="acceptDrops">
+     <bool>true</bool>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string notr="true"/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normalon>../../../Downloads/Projeto_v1.0_interface/Projeto_v1.0 interface/Imagens/grr segunda tela.png</normalon>
+     </iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>850</width>
+      <height>600</height>
+     </size>
+    </property>
+    <property name="shortcut">
+     <string notr="true"/>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTreeWidget" name="treeWidget_Vencer">
+    <property name="geometry">
+     <rect>
+      <x>46</x>
+      <y>64</y>
+      <width>765</width>
+      <height>173</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Arial&quot;;
+color: rgb(0, 22, 57);
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAsNeeded</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+    <property name="horizontalScrollMode">
+     <enum>QAbstractItemView::ScrollPerPixel</enum>
+    </property>
+    <property name="uniformRowHeights">
+     <bool>true</bool>
+    </property>
+    <property name="itemsExpandable">
+     <bool>false</bool>
+    </property>
+    <property name="animated">
+     <bool>true</bool>
+    </property>
+    <attribute name="headerVisible">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="headerCascadingSectionResizes">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="headerDefaultSectionSize">
+     <number>186</number>
+    </attribute>
+    <attribute name="headerHighlightSections">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="headerMinimumSectionSize">
+     <number>50</number>
+    </attribute>
+    <attribute name="headerShowSortIndicator" stdset="0">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="headerStretchLastSection">
+     <bool>false</bool>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Produto</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Lote</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Validade</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Dias Restantes</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="btn_Voltar_2">
+    <property name="geometry">
+     <rect>
+      <x>24</x>
+      <y>14</y>
+      <width>53</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normalon>../../../Downloads/Projeto_v1.0_interface/Projeto_v1.0 interface/Imagens/btn_Voltar.png</normalon>
+     </iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTreeWidget" name="treeWidget_Vencidos">
+    <property name="geometry">
+     <rect>
+      <x>46</x>
+      <y>292</y>
+      <width>765</width>
+      <height>169</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Arial&quot;;
+color: rgb(255, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="horizontalScrollMode">
+     <enum>QAbstractItemView::ScrollPerPixel</enum>
+    </property>
+    <property name="rootIsDecorated">
+     <bool>true</bool>
+    </property>
+    <property name="uniformRowHeights">
+     <bool>true</bool>
+    </property>
+    <property name="itemsExpandable">
+     <bool>false</bool>
+    </property>
+    <property name="animated">
+     <bool>true</bool>
+    </property>
+    <attribute name="headerVisible">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="headerCascadingSectionResizes">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="headerDefaultSectionSize">
+     <number>289</number>
+    </attribute>
+    <attribute name="headerHighlightSections">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="headerMinimumSectionSize">
+     <number>50</number>
+    </attribute>
+    <attribute name="headerStretchLastSection">
+     <bool>false</bool>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Produto</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Lote</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Validade</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="produtosvencidos">
+    <property name="geometry">
+     <rect>
+      <x>286</x>
+      <y>244</y>
+      <width>283</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 0, 0);
+background-color: rgb(0, 22, 57);
+font: 87 25pt &quot;Exo&quot;;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string>Produtos vencidos</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="produtosparasevencer">
+    <property name="geometry">
+     <rect>
+      <x>242</x>
+      <y>12</y>
+      <width>371</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 22, 57);
+font: 87 25pt &quot;Exo&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Produtos para se vencer</string>
+    </property>
+    <property name="openExternalLinks">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="nenhumprodutovencido">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>140</y>
+      <width>531</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(0, 22, 57);
+font: 87 25pt &quot;Exo&quot;;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="nenhumprodutovencido_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>370</y>
+      <width>385</width>
+      <height>39</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 0, 0);
+background-color: rgb(0, 22, 57);
+font: 87 25pt &quot;Exo&quot;;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Plain</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
